@@ -1,7 +1,7 @@
 
 def checkBornYear():
     bornYear = 1799
-    inputYear = int(input('Enter born year: '))
+    inputYear = int(input('Введите год рождения: '))
     if inputYear == bornYear:
         return True
     else:

@@ -1,4 +1,3 @@
-import random
 
 famousPeople = {
     "Albert Einstein": 1879,      

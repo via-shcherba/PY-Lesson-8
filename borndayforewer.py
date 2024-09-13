@@ -6,7 +6,7 @@ if bornyearforewer.checkBornYearForewer():
     while result != True:
         if bornday.checkBornDay():
             result = True
-            print('Success')
+            print('Правильно!')
 
 #BornYear 1799
 #BornDay 6 June

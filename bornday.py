@@ -1,8 +1,8 @@
 import bornyear
 
 def checkBornDay():
-    bornDay = '6 June'
-    inputDay = input('Enter born day: ')
+    bornDay = '6 Июня'
+    inputDay = input('Введите день рождения: ')
     if inputDay == bornDay:
         return True
     else:
