@@ -1,12 +1,12 @@
-import bornyearforewer
-import bornday
+from bornday import checkBornDay
+from bornyearforewer import checkBornYearForewer
 
-if bornyearforewer.checkBornYearForewer():
+if checkBornYearForewer():
     result = False
     while result != True:
-        if bornday.checkBornDay():
+        if checkBornDay():
             result = True
             print('Правильно!')
 
 #BornYear 1799
-#BornDay 6 June
+#BornDay 6 Июня

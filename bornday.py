@@ -1,4 +1,4 @@
-import bornyear
+from bornyear import checkBornYear
 
 def checkBornDay():
     bornDay = '6 Июня'
@@ -10,7 +10,7 @@ def checkBornDay():
     
 #BornDay 6 June
 
-# if bornyear.checkBornYear():
+# if checkBornYear():
 #     if checkBornDay():
 #         print('Success')
 #     else:
